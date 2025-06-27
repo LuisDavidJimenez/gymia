@@ -7,10 +7,6 @@
   padding: 0 1rem;
 }
 
-*{
-  font-family: 'Courier New', Courier, monospace;
-}
-
 .toolbar-title {
   font-size: 1.5rem;
   font-weight: 600;

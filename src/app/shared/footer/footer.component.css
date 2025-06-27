@@ -1,0 +1,16 @@
+:host ::ng-deep .app-toolbar.footer {
+  position: relative;
+  bottom: 0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 4rem;
+  padding: 0 1rem;
+  flex-shrink: 0;
+}
+
+.toolbar-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
