@@ -1,0 +1,14 @@
+<p-toolbar class="app-toolbar">
+  <div class="imagen">
+    <img src="../../../assets/images/logo.png" alt="GymIA" height="60" />
+  </div>
+  <!-- Titulo de nuestra app -->
+  <span class="toolbar-title">GymIA</span>
+  <!-- Es un boton para alternar el tema del fondo -->
+  <!-- pButton es para indicarle a PrimeNG que aplique estilos -->
+  <!-- PRiple es para indicarle que aplique el efecto visual del 'click' -->
+  <button class="oscuro" pButton PRipple type="button" (click)="toggleTheme()">
+    <!-- {{Significa interpolacion}} -->
+    {{ darkMode ? "☀️" : "🌙" }}
+  </button>
+</p-toolbar>
